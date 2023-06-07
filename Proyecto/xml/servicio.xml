@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ClubAmerica>
+  <Opciones>
+    <Opcion Url="/paginas.aspx?Id=0" Texto="Inicio" Id="0"></Opcion>
+    <Opcion Url="/paginas.aspx?Id=1" Texto="Club" Id="1"></Opcion>
+    <Opcion Url="/paginas.aspx?Id=2" Texto="Masculino" Id="2"></Opcion>
+    <Opcion Url="/paginas.aspx?Id=3" Texto="Femenino" Id="3"></Opcion>
+    <Opcion Url="/paginas.aspx?Id=4" Texto="Mapa" Id="4"></Opcion>
+
+    <!--es un spa-->
+  </Opciones>
+  <Servicios>
+      <Sitemas Producto="CONTPQi">
+        <Tipo Nombre="Facturación Electrónica" Orden="1">Facturación Electrónica
+          <Descripcion>Agiliza tus procesos de facturación, ventas y cobro.</Descripcion>
+          <Realiza>
+            <Evento Nombre="Compra"></Evento>
+            <Evento Nombre="Renueva"></Evento>
+            <Evento Nombre="Actualiza"></Evento>
+          </Realiza>
+          <Imagenes>assets/img/factura.png</Imagenes>
+          <Precios>
+            <Precio Nombre="Anual">$8,999</Precio>
+            <Precio Nombre="Mensual">$799</Precio>
+          </Precios>
+        </Tipo>
+        <Tipo Nombre="Contabilidad" Orden="2">
+          <Descripcion>Para analizar y mantener en orden tu información contable, fiscal y financiera.</Descripcion>
+          <Realiza>
+            <Evento Nombre="Compra"></Evento>
+            <Evento Nombre="Renueva"></Evento>
+            <Evento Nombre="Actualiza"></Evento>
+          </Realiza>
+          <Imagen>assets/img/conta.png</Imagen>
+          <Precios>
+            <Precio Nombre="Anual">$8,999</Precio>
+            <Precio Nombre="Mensual">$799</Precio>
+          </Precios>
+        </Tipo>
+        <Tipo Nombre="Nóminas" Orden="3">
+          <Descripcion>Administra tu nómina y cumple en tiempo y forma con todas las obligaciones de Ley.</Descripcion>
+          <Realiza>
+            <Evento Nombre="Compra"></Evento>
+            <Evento Nombre="Renueva"></Evento>
+            <Evento Nombre="Actualiza"></Evento>
+          </Realiza>
+          <Imagen>assets/img/nomina.png</Imagen>
+          <Precios>
+            <Precio Nombre="Anual">$8,999</Precio>
+            <Precio Nombre="Mensual">$799</Precio>            
+          </Precios>
+        </Tipo>
+        <Tipo Nombre="Bancos" Orden="4">
+          <Descripcion>Administra correctamente tu flujo de efectivo de forma sencilla.</Descripcion>
+          <Realiza>
+            <Evento Nombre="Compra"></Evento>
+            <Evento Nombre="Renueva"></Evento>
+            <Evento Nombre="Actualiza"></Evento>
+          </Realiza>
+          <Imagen>assets/img/bancos.png</Imagen>
+          <Precios>
+            <Precio Nombre="Anual">$8,999</Precio>
+            <Precio Nombre="Mensual">$799</Precio>
+          </Precios>
+        </Tipo>
+      </Sitemas>
+      <Sitemas Producto="Restaurant">
+        <Tipo Nombre="SoftRestaurant" Orden="1">
+          <Descripcion>Administra correctamente tu flujo de efectivo de forma sencilla.</Descripcion>
+          <Realiza>
+            <Evento Nombre="Compra"></Evento>
+            <Evento Nombre="Renueva"></Evento>
+            <Evento Nombre="Actualiza"></Evento>
+          </Realiza>
+          <Imagen>assets/img/bancos.png</Imagen>
+          <Precios>
+            <Precio Nombre="Anual">$8,999</Precio>
+            <Precio Nombre="Mensual">$799</Precio>
+          </Precios>
+        </Tipo>
+        <Tipo Nombre="FrontRest" Orden="2">
+          
+        </Tipo>
+        <Tipo Nombre="EposNow" Orden="3">
+          
+        </Tipo>
+        <Tipo Nombre="HostelTáctil" Orden="4"></Tipo>
+      </Sitemas>
+      <Sitemas Producto="Webs">
+        <Tipo Nombre="Corporativo" Orden="1"></Tipo>
+        <Tipo Nombre="Venta Online" Orden="2"></Tipo>
+        <Tipo Nombre="Ecommerce" Orden="3"></Tipo>
+        <Tipo Nombre="Aplicaciones" Orden="4"></Tipo>
+      </Sitemas>
+    <Sitemas Producto="ERP">
+      <Tipo Nombre="Small Bussines" Orden="1"></Tipo>
+      <Tipo Nombre="NetSuite" Orden="2"></Tipo>
+      <Tipo Nombre="Katana" Orden="3"></Tipo>
+      <Tipo Nombre="Odoo" Orden="4"></Tipo>
+    </Sitemas>
+  </Servicios>
+  <Datos>
+    <NombreEmpresa>ClubAmerica</NombreEmpresa>
+    <Descripcion>America</Descripcion>
+    <Direccion>Hacienda de la punta #58, Col Impulsora Popular Avícola, C.P. 57130 Nezahualcoyotl, Edo. Méx., México.</Direccion>
+    <Telefonos>
+      <Telefono>55-44-99-15-25</Telefono>
+      <Telefono>56-20-81-21-58</Telefono>
+    </Telefonos>
+    <Imagen>/assests/img/logo.jpg</Imagen>
+    
+  </Datos>
+</ClubAmerica>
